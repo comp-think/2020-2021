@@ -21,8 +21,6 @@ The official book of the course, <cite><a href="https://comp-think.github.io/">C
 **Keys:** 
 * *the* = theoretical lecture
 * *lab* = laboratory session
-# * *exa* = partial examination
-# * *add* = additional material 
 
 1. [14/10/20, *the*] Introduction to Computational Thinking 
    * book chapter: [PDF](https://comp-think.github.io/book/01.pdf), [Google Docs](https://comp-think.github.io/book/01)
