@@ -44,33 +44,33 @@ The official book of the course, <cite><a href="https://comp-think.github.io/">C
 8. [30/10/20, *the*] Brute-force algorithms
    * book chapter: [PDF](https://comp-think.github.io/book/06.pdf), [Google Docs](https://comp-think.github.io/book/06)
    <hr />
-9.  [04/11/20, *the*] Organising information: unordered structures
+9.  [09/11/20, *the*] Organising information: unordered structures
     * book chapter: [PDF](https://comp-think.github.io/book/07.pdf), [Google Docs](https://comp-think.github.io/book/07)
     <hr />
-10. [06/11/20, *lab*] 3rd Lesson
+10. [11/11/20, *lab*] 3rd Lesson
     <hr />
-11. [09/11/20, *the*] Recursion
+11. [13/11/20, *the*] Recursion
     * book chapter: [PDF](https://comp-think.github.io/book/08.pdf), [Google Docs](https://comp-think.github.io/book/08)
     <hr />
-12. [11/11/19, *lab*] 4th Lesson
+12. [16/11/19, *lab*] 4th Lesson
     <hr />
-13. [13/11/20, *the*] Divide and conquer algorithms
+13. [20/11/20, *the*] Divide and conquer algorithms
     * book chapter: [PDF](https://comp-think.github.io/book/09.pdf), [Google Docs](https://comp-think.github.io/book/09)
     <hr />
-14. [16/11/20, *the*] Dynamic programming algorithms
+14. [23/11/20, *the*] Dynamic programming algorithms
     * book chapter: [PDF](https://comp-think.github.io/book/10.pdf), [Google Docs](https://comp-think.github.io/book/10)
     <hr />
-15. [20/11/20, *lab*] 5th Lesson
+15. [25/11/20, *lab*] 5th Lesson
     <hr />
-16. [23/12/20, *the*] Organising information: trees
+16. [27/11/20, *the*] Organising information: trees
     * book chapter: [PDF](https://comp-think.github.io/book/11.pdf), [Google Docs](https://comp-think.github.io/book/11)
     <hr />
-17. [25/11/20, *lab*] 6th Lesson
+17. [30/11/20, *lab*] 6th Lesson
     <hr />
-18. [30/11/20, *the*] Backtracking algorithms
+18. [02/12/20, *the*] Backtracking algorithms
     * book chapter: [PDF](https://comp-think.github.io/book/12.pdf), [Google Docs](https://comp-think.github.io/book/12)
     <hr />
-19. [02/12/20, *lab*] 7th Lesson
+19. [04/12/20, *lab*] 7th Lesson
     <hr />
 20. [09/12/20, *the*] Organising information: graphs
     * book chapter: [PDF](https://comp-think.github.io/book/13.pdf), [Google Docs](https://comp-think.github.io/book/13)
@@ -96,17 +96,17 @@ The official book of the course, <cite><a href="https://comp-think.github.io/">C
     <tr><td>26/10/20</td><td>9:30-11:30</td><td>Organising information: ordered structures</td></tr>
     <tr><td>28/10/20</td><td>9:30-11:30</td><td><span>Laboratory</span></td></tr>
     <tr><td>30/10/20</td><td>12:30-14:30</td><td>Brute-force algorithms</td></tr>
-    <tr><td>04/11/20</td><td>9:30-11:30</td><td>Organising information: unordered structures</td></tr>
-    <tr><td>06/11/20</td><td>12:30-14:30</td><td><span>Laboratory</span></td></tr>
-    <tr><td>09/11/20</td><td>9:30-11:30</td><td>Recursion</td></tr>
+    <tr><td>09/11/20</td><td>9:30-11:30</td><td>Organising information: unordered structures</td></tr>
     <tr><td>11/11/20</td><td>9:30-11:30</td><td><span>Laboratory</span></td></tr>
-    <tr><td>13/11/20</td><td>12:30-14:30</td><td>Divide and conquer algorithms</td></tr>
-    <tr><td>16/11/20</td><td>9:30-11:30</td><td>Dynamic programming algorithms</td></tr>
-    <tr><td>20/11/20</td><td>12:30-14:30</td><td><span>Laboratory</span></td></tr>
-    <tr><td>23/11/20</td><td>9:30-11:30</td><td>Organising information: trees</td></tr>
+    <tr><td>13/11/20</td><td>12:30-14:30</td><td>Recursion</td></tr>
+    <tr><td>16/11/20</td><td>9:30-11:30</td><td><span>Laboratory</span></td></tr>
+    <tr><td>20/11/20</td><td>12:30-14:30</td><td>Divide and conquer algorithms</td></tr>
+    <tr><td>23/11/20</td><td>9:30-11:30</td><td>Dynamic programming algorithms</td></tr>
     <tr><td>25/11/20</td><td>9:30-11:30</td><td><span>Laboratory</span></td></tr>
-    <tr><td>30/11/20</td><td>9:30-11:30</td><td>Backtracking algorithms</td></tr>
-    <tr><td>02/12/20</td><td>9:30-11:30</td><td><span>Laboratory</span></td></tr>
+    <tr><td>27/11/20</td><td>12:30-14:30</td><td>Organising information: trees</td></tr>
+    <tr><td>30/11/20</td><td>9:30-11:30</td><td><span>Laboratory</span></td></tr>
+    <tr><td>02/12/20</td><td>9:30-11:30</td><td>Backtracking algorithms</td></tr>
+    <tr><td>04/12/20</td><td>12:30-14:30</td><td><span>Laboratory</span></td></tr>
     <tr><td>09/12/20</td><td>9:30-11:30</td><td>Organising information: graphs</td></tr>
     <tr><td>11/12/20</td><td>12:30-14:30</td><td><span>Laboratory</span></td></tr>
     <tr><td>14/12/20</td><td>9:30-11:30</td><td>Project: specification</td></tr>
