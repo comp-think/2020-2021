@@ -28,6 +28,7 @@ The official book of the course, <cite><a href="https://comp-think.github.io/">C
 1. [14/10/20, *the*] Introduction to Computational Thinking 
    * book chapter: [PDF](https://comp-think.github.io/book/01.pdf), [Google Docs](https://comp-think.github.io/book/01)
    * slides: [HTML](https://comp-think.github.io/2020-2021/slides/01%20-%20Introduction%20to%20Computational%20Thinking.html)
+   * exercises: [1](https://github.com/comp-think/2020-2021/issues/1), [2](https://github.com/comp-think/2020-2021/issues/2), [3](https://github.com/comp-think/2020-2021/issues/3)
    <hr />
 2. [16/10/20, *the*] Algorithms 
    * book chapter: [PDF](https://comp-think.github.io/book/02.pdf), [Google Docs](https://comp-think.github.io/book/02)
