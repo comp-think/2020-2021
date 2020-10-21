@@ -12,7 +12,10 @@ Alternatively, you can navigate to the Python Releases for Windows page ([https:
 ### On Mac
 The download should start without any redirection.
 
+### On Linux
+Linux users can skip this part and don't download the installer of Python. Since on the installation phase, we are going to use the Advanced Package Tool (APT) which will download and install the Python repository in one step.
+
 ## PyCharm
 1. Go to the PyCharm home page: [https://www.jetbrains.com/pycharm/](https://www.jetbrains.com/pycharm/)
-2. Press the Download button in the up-right corner, which redirects you to the download page, according to the OS you are using to access the browser.
+2. Press the Download button in the up-right corner, which redirects you to the download page, according to the OS you are using to access the browser (Windows, Mac, or Linux).
 3. Under the label Community, press Download.
