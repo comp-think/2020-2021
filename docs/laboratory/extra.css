@@ -1,0 +1,94 @@
+h1 {
+  margin-bottom: 20px;
+}
+h2 {
+  margin-top: 40px;
+}
+h3 {
+  margin-top: 25px;
+}
+footer p{
+  visibility: hidden;
+}
+footer hr{
+  width: 90%;
+    opacity: 0.3;
+}
+
+.navbar-light{
+  background-image: none;
+  background-color: white !important;
+  border-bottom: solid 0.8px #7C7C7C;
+}
+
+.navbar-light .container .navbar-brand{
+  font-size: 13pt !important;
+}
+
+.active a{
+  color: #48A887 !important;
+}
+
+.dropdown a:hover{
+  background-color: transparent;
+  color: #48A887 !important;
+}
+
+.dropdown .active{
+  background-color: transparent;
+}
+
+#toc-collapse {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#toc-collapse .nav-link{
+  color: #808080 !important;
+}
+#toc-collapse .nav-link.active{
+  color: #48A887 !important;
+  border-right: solid 5px;
+}
+
+#toc-collapse .nav-link:hover{
+  border-right: none;
+  color: #48A887 !important;
+}
+
+#toc-collapse .nav-item[data-level="1"]{
+  font-size: 15pt;
+}
+
+#toc-collapse .nav-item[data-level="2"]{
+  font-size: 12pt;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+.a-box{
+  margin-bottom: 10px;
+  background-color: #DEDEDE;
+  padding: 15px;
+  border-radius: 5px;
+}
+.notes-box{
+  background-color: #E4EEF6;
+}
+.mac-box{
+  background-color: #7C7C7C;
+  color: white !important;
+}
+.mac-box a{
+  color: white;
+  text-decoration: underline;
+}
+.mac-box h5{
+  color: white !important;
+}
+.linux-box{
+  background-color: #D1C5CF;
+}
+.linux-box a{
+  color: #4A5057;
+  text-decoration: underline;
+}
