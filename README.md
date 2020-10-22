@@ -6,14 +6,17 @@ This space contains all the material related to the [Computational Thinking and 
 
 ### Table of content
 
-1. [Book](#book)
+1. [Book and notes](#book-and-notes)
 2. [Material](#material)
 3. [Schedule](#schedule)
+4. [Exam sessions](#exam-sessions)
 
 
-### Book
+### Book and notes
 
 The official book of the course, <cite><a href="https://comp-think.github.io/">Computational Thinking and Programming book</a></cite>, is available online in PDF format. Google Docs links are provided for each chapter, to enable students to comment and suggest improvements. The suggested accompanying book for Python coding, <cite><a href="https://www.digitalocean.com/community/books/digitalocean-ebook-how-to-code-in-python">How To Code in Python</a> by Lisa Tagliaferri</cite>, is also freely available online in PDF and EPUB formats.
+
+All the lecture notes and additional material of the laboratory are available at <a href="https://comp-think.github.io/2020-2021/laboratory/">https://comp-think.github.io/2020-2021/laboratory/</a>.
 
 
 ### Material
@@ -55,6 +58,7 @@ The official book of the course, <cite><a href="https://comp-think.github.io/">C
    * exercises: [1](https://github.com/comp-think/2020-2021/issues/10), [2](https://github.com/comp-think/2020-2021/issues/11), [3](https://github.com/comp-think/2020-2021/issues/12)
    <hr />
 5. [23/10/20, *lab*] 1st Lesson
+   * material: [HTML](https://comp-think.github.io/2020-2021/laboratory/lessons/1_lesson/)
    <hr />
 6. [26/10/20, *the*] Organising information: ordered structures
    * book chapter: [PDF](https://comp-think.github.io/book/05.pdf), [Google Docs](https://comp-think.github.io/book/05)
@@ -132,3 +136,13 @@ The official book of the course, <cite><a href="https://comp-think.github.io/">C
     <tr><td>14/12/20</td><td>9:30-11:30</td><td>Project: specification</td></tr>
     <tr><td>16/12/20</td><td>9:30-11:30</td><td>Greedy algorithms</td></tr>
 </table>
+
+
+### Exam sessions
+
+* 29 January 2021
+* 15 March 2021
+* 17 May 2021
+* 14 June 2021
+* 12 July 2021
+* 20 September 2021
