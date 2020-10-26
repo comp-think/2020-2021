@@ -39,13 +39,13 @@ All the lecture notes and additional material of the laboratory are available at
    * slides: [HTML](https://comp-think.github.io/2020-2021/slides/02%20-%20Algorithms.html)
    * exercises: [1](https://github.com/comp-think/2020-2021/issues/4), [2](https://github.com/comp-think/2020-2021/issues/5), [3](https://github.com/comp-think/2020-2021/issues/6)
    * solutions [1](https://comp-think.github.io/keys/02/exercise-1), [2](https://comp-think.github.io/keys/02/exercise-2), [3](https://comp-think.github.io/keys/02/exercise-3)
-   * additional material: [Asymptotic notation](https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation), [Introduction to Asymptotic Analysis](https://www.cs.cornell.edu/courses/cs312/2004fa/lectures/lecture16.htm), [Analysis of Algorithms](https://www.geeksforgeeks.org/analysis-of-algorithms-set-1-asymptotic-analysis/)
    <hr />
 3. [19/10/20, *the*] Computability  
    * book chapter: [PDF](https://comp-think.github.io/book/03.pdf), [Google Docs](https://comp-think.github.io/book/03)
    * slides: [HTML](https://comp-think.github.io/2020-2021/slides/03%20-%20Computability.html)
    * exercises: [1](https://github.com/comp-think/2020-2021/issues/7), [2](https://github.com/comp-think/2020-2021/issues/8), [3](https://github.com/comp-think/2020-2021/issues/9)
    * solutions [1](https://comp-think.github.io/keys/03/exercise-1), [2](https://comp-think.github.io/keys/03/exercise-2), [3](https://comp-think.github.io/keys/03/exercise-3)
+   * additional material: [Asymptotic notation](https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation), [Introduction to Asymptotic Analysis](https://www.cs.cornell.edu/courses/cs312/2004fa/lectures/lecture16.htm), [Analysis of Algorithms](https://www.geeksforgeeks.org/analysis-of-algorithms-set-1-asymptotic-analysis/)
    <hr />
 4. [21/10/20, *the*] Programming languages  
    * book chapter: [PDF](https://comp-think.github.io/book/04.pdf), [Google Docs](https://comp-think.github.io/book/04)
