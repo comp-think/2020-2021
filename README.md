@@ -76,6 +76,7 @@ All the lecture notes and additional material of the laboratory are available at
    * exercises: [1](https://github.com/comp-think/2020-2021/issues/13), [2](https://github.com/comp-think/2020-2021/issues/14), [3](https://github.com/comp-think/2020-2021/issues/15)
    <hr />
 7. [28/10/20, *lab*] 2nd Lesson
+   * material: [HTML](https://comp-think.github.io/2020-2021/laboratory/lessons/2_lesson/)
    <hr />
 8. [30/10/20, *the*] Brute-force algorithms
    * book chapter: [PDF](https://comp-think.github.io/book/06.pdf), [Google Docs](https://comp-think.github.io/book/06)
