@@ -48,6 +48,10 @@
 <li>
     <a href="./" class="dropdown-item active">2. Programming in Python - the basics</a>
 </li>
+                                    
+<li>
+    <a href="../3_lesson/" class="dropdown-item">3. Working with lists and tuples</a>
+</li>
                                 </ul>
                             </li>
                         </ul>
@@ -64,7 +68,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" class="nav-link disabled">
+                                <a rel="next" href="../3_lesson/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -119,6 +123,8 @@
                     <div class="col-md-9" role="main">
 
 <h1 id="programming-in-python-the-basics">Programming in Python - the basics</h1>
+<h5>Date: 28/10/2020</h5>
+<h5>Time: 09:30-11:30</h5>
 <h2 id="syntax-in-python">Syntax in Python</h2>
 <h3 id="variables">Variables</h3>
 <div class="py-hint-box">
@@ -392,6 +398,7 @@
 </div>
 
 <h2 id="exercises">Exercises</h2>
+<p>(<span class="inline-header">check the exercises on the <a href="https://github.com/comp-think/2020-2021/tree/master/docs/laboratory/src/lessons/2">github repository</a></span>)</p>
 <h3 id="1st-exercise">1st Exercise</h3>
 <p>Define a function <code class="py">is_friend_of_harry()</code> which returns a <strong>True</strong> value if a given name (String) is one of the friends of Harry Potter, otherwise the function must return <strong>False</strong>.
 Lets pretend the friends of Harry Potter are: <strong>"Ron", "Hermione", "Hagrid",</strong> and <strong>"Dumbledore"</strong>.   </p>
@@ -481,10 +488,10 @@ Lets pretend the friends of Harry Potter are: <strong>"Ron", "Hermione", "Hagrid
 <h3 id="2nd-exercise">2nd Exercise</h3>
 <p>Each house of Hogwarts has a score which is updated based on actions such as performance in class and rule violations. Lets pretend we have a list of the houses <code class="py">houses = ["Gryffindor", "Hufflepuff", "Ravenclaw", "Slytherin"]</code> and another list containing the score of each house <code class="py">scores = [0,0,0,0]</code>,  such that the score value in position N of the scores list belongs to the house in position N of the houses list .</p>
 <ul>
-<li>a) Define a <code class="py">update_house_score()</code> function which increments/decrements the score of a specific house with a given points.  </li>
+<li>a) Define a <code class="py">update_house_score()</code> function which increments/decrements the score of a specific house with a given points. The function takes three parameters: <code class="py">house_name</code>, <code class="py">action</code> (string value "positive"/"negative"), and <code class="py">points</code>.  </li>
 </ul>
 <div class="a-box notes-box">
-<b>Example:</b><br> Calling the function this way: <code class="py">update_house_score("Gryffindor","Positive",5)</code> should increment the score of house Gryffindor by 5 points.<br><br>
+<b>Example:</b><br> Calling the function this way: <code class="py">update_house_score("Gryffindor","positive",5)</code> should increment the score of house Gryffindor by 5 points.<br><br>
 <b>Hint:</b><br>
 The function <code class="py">{list}.index({value})</code> returns the index of an element in the list, e.g. <code class="py">houses.index("Hufflepuff")</code> equals <b>1</b>
 </div>
