@@ -103,6 +103,7 @@ All the lecture notes and additional material of the laboratory are available at
    * exercises: [1](https://github.com/comp-think/2020-2021/issues/21), [2](https://github.com/comp-think/2020-2021/issues/22), [3](https://github.com/comp-think/2020-2021/issues/23)
     <hr />
 10. [11/11/20, *lab*] 3rd Lesson
+   * material: [HTML](https://comp-think.github.io/2020-2021/laboratory/lessons/3_lesson/)
     <hr />
 11. [13/11/20, *the*] Recursion
     * book chapter: [PDF](https://comp-think.github.io/book/08.pdf), [Google Docs](https://comp-think.github.io/book/08)
