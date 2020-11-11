@@ -18,10 +18,16 @@ footer hr{
 li{
   margin-top: 3px;
 }
+.inline-header{
+  font-size: 16pt;
+}
 code.py{
   color: #B1F29C;
   background-color: #637273	;
   border-radius: 5px;
+}
+.error-code{
+  color: #F99A9A;
 }
 .half{
   width: 47%!important;
@@ -123,6 +129,10 @@ code.py{
   padding: 10px;
   word-wrap: break-word;
   border-top: 1px dashed lightgray;
+}
+.py-hint-box.intext{
+  margin-bottom: 1px;
+  border-top: none;
 }
 .py-hint-box.large{
   display: block;
