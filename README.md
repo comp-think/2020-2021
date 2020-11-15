@@ -5,11 +5,13 @@ This space contains all the material related to the [Computational Thinking and 
 ## Academic year 2020/2021
 
 ### Table of content
-
-1. [Book and notes](#book-and-notes)
-2. [Material](#material)
-3. [Schedule](#schedule)
-4. [Exam sessions](#exam-sessions)
+- [Computational Thinking and Programming](#computational-thinking-and-programming)
+  - [Academic year 2020/2021](#academic-year-20202021)
+    - [Table of content](#table-of-content)
+    - [Book and notes](#book-and-notes)
+    - [Material](#material)
+    - [Schedule](#schedule)
+    - [Exam sessions](#exam-sessions)
 
 
 ### Book and notes
@@ -101,11 +103,16 @@ All the lecture notes and additional material of the laboratory are available at
      * Chapter "How To Construct Classes and Define Objects": all content
    * Python: [set_instructions.py](https://comp-think.github.io/python/set_instructions.py), [dictionary_instructions.py](https://comp-think.github.io/python/dictionary_instructions.py)
    * exercises: [1](https://github.com/comp-think/2020-2021/issues/21), [2](https://github.com/comp-think/2020-2021/issues/22), [3](https://github.com/comp-think/2020-2021/issues/23)
+   * solutions: [1](https://comp-think.github.io/keys/07/exercise-1), [2](https://comp-think.github.io/keys/07/exercise-2), [3](https://comp-think.github.io/keys/07/exercise-3)
     <hr />
 10. [11/11/20, *lab*] 3rd Lesson
+   * material: [HTML](https://comp-think.github.io/2020-2021/laboratory/lessons/3_lesson/)
     <hr />
 11. [13/11/20, *the*] Recursion
     * book chapter: [PDF](https://comp-think.github.io/book/08.pdf), [Google Docs](https://comp-think.github.io/book/08)
+    * slides: [HTML](https://comp-think.github.io/2020-2021/slides/08%20-%20Recursion.html)
+    * Python: [run_forever_recursive.py](https://comp-think.github.io/python/run_forever_recursive.py), [multiplication.py](https://comp-think.github.io/python/multiplication.py)
+    * exercises: [1](https://github.com/comp-think/2020-2021/issues/24), [2](https://github.com/comp-think/2020-2021/issues/25)
     <hr />
 12. [16/11/19, *lab*] 4th Lesson
     <hr />
