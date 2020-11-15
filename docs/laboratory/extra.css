@@ -29,6 +29,9 @@ code.py{
 .error-code{
   color: #F99A9A;
 }
+.output-code{
+  color: #9AC9F9;
+}
 .half{
   width: 47%!important;
 }
