@@ -115,6 +115,7 @@ All the lecture notes and additional material of the laboratory are available at
     * exercises: [1](https://github.com/comp-think/2020-2021/issues/24), [2](https://github.com/comp-think/2020-2021/issues/25)
     <hr />
 12. [16/11/19, *lab*] 4th Lesson
+   * material: [HTML](https://comp-think.github.io/2020-2021/laboratory/lessons/4_lesson/)
     <hr />
 13. [20/11/20, *the*] Divide and conquer algorithms
     * book chapter: [PDF](https://comp-think.github.io/book/09.pdf), [Google Docs](https://comp-think.github.io/book/09)
