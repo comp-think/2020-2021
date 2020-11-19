@@ -113,12 +113,16 @@ All the lecture notes and additional material of the laboratory are available at
     * slides: [HTML](https://comp-think.github.io/2020-2021/slides/08%20-%20Recursion.html)
     * Python: [run_forever_recursive.py](https://comp-think.github.io/python/run_forever_recursive.py), [multiplication.py](https://comp-think.github.io/python/multiplication.py)
     * exercises: [1](https://github.com/comp-think/2020-2021/issues/24), [2](https://github.com/comp-think/2020-2021/issues/25)
+    * solutions: [1](https://comp-think.github.io/keys/08/exercise-1), [2](https://comp-think.github.io/keys/08/exercise-2)
     <hr />
 12. [16/11/19, *lab*] 4th Lesson
    * material: [HTML](https://comp-think.github.io/2020-2021/laboratory/lessons/4_lesson/)
     <hr />
 13. [20/11/20, *the*] Divide and conquer algorithms
     * book chapter: [PDF](https://comp-think.github.io/book/09.pdf), [Google Docs](https://comp-think.github.io/book/09)
+    * slides: [HTML](https://comp-think.github.io/2019-2020/slides/09%20-%20Divide%20and%20conquer%20algorithms.html)
+    * Python: [immutable_values.py](https://comp-think.github.io/python/immutable_values.py), [mutable_values.py](https://comp-think.github.io/python/mutable_values.py), [immutable_and_mutable_variables.py](https://comp-think.github.io/python/immutable_and_mutable_variables.py), [merge.py](https://comp-think.github.io/python/merge.py), [merge_sort.py](https://comp-think.github.io/python/merge_sort.py)
+    * exercises: [1](https://github.com/comp-think/2019-2020/issues/26), [2](https://github.com/comp-think/2019-2020/issues/27), [3](https://github.com/comp-think/2019-2020/issues/28)
     <hr />
 14. [23/11/20, *the*] Dynamic programming algorithms
     * book chapter: [PDF](https://comp-think.github.io/book/10.pdf), [Google Docs](https://comp-think.github.io/book/10)
