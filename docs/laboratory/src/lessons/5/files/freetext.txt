@@ -1,0 +1,2 @@
+This is just an example of a TXT file.
+Try to read this file with python.
