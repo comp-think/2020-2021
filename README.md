@@ -132,6 +132,7 @@ All the lecture notes and additional material of the laboratory are available at
     * exercises: [1](https://github.com/comp-think/2020-2021/issues/29), [2](https://github.com/comp-think/2020-2021/issues/30)
     <hr />
 15. [25/11/20, *lab*] 5th Lesson
+   * material: [HTML](https://comp-think.github.io/2020-2021/laboratory/lessons/5_lesson/)
     <hr />
 16. [27/11/20, *the*] Organising information: trees
     * book chapter: [PDF](https://comp-think.github.io/book/11.pdf), [Google Docs](https://comp-think.github.io/book/11)
