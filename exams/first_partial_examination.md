@@ -40,7 +40,7 @@ A Turing Machine is composed of an {{choose}} containing {{choose}}, each contai
 
 Possible terms to choose: cells, finite memory tape, finite table of instructions, head, infinite memory tape, infinite table of instructions, pushed and popped, read and written, state, triangles
    
-*Answer:* A Turing Machine is composed of an infinite memory tape containing cells, each containing a symbol that can be read and written by the of the head machine. The state of the machine at a specific time is recorded. The machine specifies the possible actions to perform in a finite table of instructions.
+*Answer:* A Turing Machine is composed of an infinite memory tape containing cells, each containing a symbol that can be read and written by the head of the machine. The state of the machine at a specific time is recorded. The machine specifies the possible actions to perform in a finite table of instructions.
 
 ### Question 2
 Which of the following names refer to widgets in a flowchart:
