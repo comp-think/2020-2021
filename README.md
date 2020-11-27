@@ -203,4 +203,4 @@ All the lecture notes and additional material of the laboratory are available at
 
 # Links
 
-* First partial examination: [text and solutions](https://github.com/comp-think/2020-2021/tree/master/docs/exams/first_partial_examination.md)
+* First partial examination: [text and solutions](https://github.com/comp-think/2020-2021/tree/master/exams/first_partial_examination.md)
