@@ -12,6 +12,7 @@ This space contains all the material related to the [Computational Thinking and 
     - [Material](#material)
     - [Schedule](#schedule)
     - [Exam sessions](#exam-sessions)
+    - [Links](#links)
 
 
 ### Book and notes
@@ -198,3 +199,8 @@ All the lecture notes and additional material of the laboratory are available at
 * 14 June 2021
 * 12 July 2021
 * 20 September 2021
+
+
+# Links
+
+* First partial examination: [text and solutions](https://github.com/comp-think/2020-2021/tree/master/docs/exams/first_partial_examination.md)
