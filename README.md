@@ -143,6 +143,7 @@ All the lecture notes and additional material of the laboratory are available at
     * exercises: [1](https://github.com/comp-think/2020-2021/issues/31), [2](https://github.com/comp-think/2020-2021/issues/32)
     <hr />
 17. [30/11/20, *lab*] 6th Lesson
+   * material: [HTML](https://comp-think.github.io/2020-2021/laboratory/lessons/6_lesson/)
     <hr />
 18. [02/12/20, *the*] Backtracking algorithms
     * book chapter: [PDF](https://comp-think.github.io/book/12.pdf), [Google Docs](https://comp-think.github.io/book/12)
