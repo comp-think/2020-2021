@@ -12,7 +12,7 @@ This space contains all the material related to the [Computational Thinking and 
     - [Material](#material)
     - [Schedule](#schedule)
     - [Exam sessions](#exam-sessions)
-    - [Links](#links)
+- [Links](#links)
 
 
 ### Book and notes
@@ -141,12 +141,16 @@ All the lecture notes and additional material of the laboratory are available at
     * slides: [HTML](https://comp-think.github.io/2020-2021/slides/11%20-%20Organising%20information%20-%20trees.html)
     * Python: [tree_instructions.py](https://comp-think.github.io/python/tree_instructions.py)
     * exercises: [1](https://github.com/comp-think/2020-2021/issues/31), [2](https://github.com/comp-think/2020-2021/issues/32)
+    * solutions: [1](https://comp-think.github.io/keys/11/exercise-1), [2](https://comp-think.github.io/keys/11/exercise-2)
     <hr />
 17. [30/11/20, *lab*] 6th Lesson
    * material: [HTML](https://comp-think.github.io/2020-2021/laboratory/lessons/6_lesson/)
     <hr />
 18. [02/12/20, *the*] Backtracking algorithms
     * book chapter: [PDF](https://comp-think.github.io/book/12.pdf), [Google Docs](https://comp-think.github.io/book/12)
+    * slides: [HTML](https://comp-think.github.io/2020-2021/slides/12%20-%20Backtracking%20algorithms.html)
+    * Python: [peg_solitaire.py](https://comp-think.github.io/python/peg_solitaire.py)
+    * exercises: [1](https://github.com/comp-think/2020-2021/issues/34), [2](https://github.com/comp-think/2020-2021/issues/35)
     <hr />
 19. [04/12/20, *lab*] 7th Lesson
     <hr />
