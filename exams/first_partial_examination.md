@@ -102,6 +102,6 @@ def solve(n1, n2, n3):
     for i in range(n1 + 1):
         for j in range(n2 + 1):
             for k in range(n3 + 1):
-                if open_in((i, j, k)):
+                if open_it((i, j, k)):
                     return i, j, k
 ```
