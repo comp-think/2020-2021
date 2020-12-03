@@ -26,6 +26,9 @@ code.py{
   background-color: #637273	;
   border-radius: 5px;
 }
+code.py.important{
+  padding: 10px; 
+}
 .error-code{
   color: #F99A9A;
 }

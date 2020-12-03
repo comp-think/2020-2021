@@ -6,10 +6,10 @@ def open_csv(f_path):
     result = []
     with open(f_path, mode='r') as csv_file:
         ## a
-        #csv_reader = csv.reader(csv_file, delimiter=',')
-        #next(csv_reader)
+        csv_reader = csv.reader(csv_file, delimiter=',')
+        next(csv_reader)
         ## b
-        csv_reader = csv.DictReader(csv_file)
+        #csv_reader = csv.DictReader(csv_file)
         for row in csv_reader:
             result.append(row)
     return result

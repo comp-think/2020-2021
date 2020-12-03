@@ -15,7 +15,7 @@ def pokemon_champion(l_table):
         return pokemon_champion(pokemon_champion(l_table[:mid]) + pokemon_champion(l_table[mid:]))
 
 pokemon_tables = [("Poliwag",10,5),("Charmander",15,2),("Abra",8,7),("Pidgey",4,5),("Goldeen",6,8),("Bulbasaur",12,10),("Charmeleon",18,8),("Psyduck",3,4)]
-# ("Poliwag",10,5) vs ("Charmander",15,2)       ("Abra",8,7) vs ("Pidgey",4,5)      ("Goldeen",6,8) vs ("Bulbasaur",12,10)      ("Charmeleon",18,8) vs ("Psyduck",3,4)
+# ("Poliwag",10,5) vs ("Charmander",15,2)       ("Abra",8,7) vs ("Pidgey",4,5)      ("Goldeen",6_7,8) vs ("Bulbasaur",12,10)      ("Charmeleon",18,8) vs ("Psyduck",3,4)
 # ("Poliwag",10,5)vs("Abra",8,7)      ("Bulbasaur",12,10)vs("Charmeleon",18,8)
 # ("Poliwag",10,5)vs("Bulbasaur",12,10)
 # ("Bulbasaur",12,10)
