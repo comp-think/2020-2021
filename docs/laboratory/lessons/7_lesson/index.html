@@ -148,6 +148,29 @@ We will focus on some basic text analysis operations and how are they performed 
 <p><code class="py important">Import nltk</code></p>
 <p>If every thing looks fine we will install/download popular nltk packages. We will download the popular and essential ones used for working with the basic nltk operations. Write the following line in your python script (after importing nltk):</p>
 <p><code class="py important">nltk.download("popular")</code></p>
+<div class="a-box notes-box">
+<b>Note:</b><br>
+In case running the above commands returns an error message: <b><i>"CERTIFICATE_VERIFY_FAILED"</i></b>, then write in your script only the following lines and run it again.
+
+<div class="py-hint-box large">
+<div class="code-sec large">
+<span>import nltk</span><hr>
+<span>import ssl</span><hr>
+<span></span><hr>
+<span>try:</span><hr>
+<span>&nbsp;&nbsp;&nbsp;&nbsp;_create_unverified_https_context = ssl._create_unverified_context</span><hr>
+<span>except AttributeError:</span><hr>
+<span>&nbsp;&nbsp;&nbsp;&nbsp;pass</span><hr>
+<span>else:</span><hr>
+<span>&nbsp;&nbsp;&nbsp;&nbsp;ssl._create_default_https_context = _create_unverified_https_context</span><hr>
+<span></span><hr>
+<span>nltk.download()</span><hr>
+</div>
+</div>
+
+If you still have some errors please follow these instructions <a href="https://www.xspdf.com/help/50406704.html">https://www.xspdf.com/help/50406704.html</a>
+</div>
+
 <h2 id="tokenization-and-stopwords-removal">Tokenization and stopwords removal</h2>
 <p>First thing we want to do is a <strong>Tokenization</strong> and <strong>Stopwords removal</strong>.</p>
 <p><strong>Tokenization</strong> is the process of separating and classifying different sections of a string. The resulting tokens are then passed on to some other form of processing.</p>
