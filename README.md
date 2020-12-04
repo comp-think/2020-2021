@@ -153,6 +153,7 @@ All the lecture notes and additional material of the laboratory are available at
     * exercises: [1](https://github.com/comp-think/2020-2021/issues/34), [2](https://github.com/comp-think/2020-2021/issues/35)
     <hr />
 19. [04/12/20, *lab*] 7th Lesson
+   * material: [HTML](https://comp-think.github.io/2020-2021/laboratory/lessons/7_lesson/)
     <hr />
 20. [09/12/20, *the*] Organising information: graphs
     * book chapter: [PDF](https://comp-think.github.io/book/13.pdf), [Google Docs](https://comp-think.github.io/book/13)
