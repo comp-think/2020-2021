@@ -151,12 +151,16 @@ All the lecture notes and additional material of the laboratory are available at
     * slides: [HTML](https://comp-think.github.io/2020-2021/slides/12%20-%20Backtracking%20algorithms.html)
     * Python: [peg_solitaire.py](https://comp-think.github.io/python/peg_solitaire.py)
     * exercises: [1](https://github.com/comp-think/2020-2021/issues/34), [2](https://github.com/comp-think/2020-2021/issues/35)
+    * solutions: [1](https://comp-think.github.io/keys/12/exercise-1), [2](https://comp-think.github.io/keys/12/exercise-2)
     <hr />
 19. [04/12/20, *lab*] 7th Lesson
    * material: [HTML](https://comp-think.github.io/2020-2021/laboratory/lessons/7_lesson/)
     <hr />
 20. [09/12/20, *the*] Organising information: graphs
     * book chapter: [PDF](https://comp-think.github.io/book/13.pdf), [Google Docs](https://comp-think.github.io/book/13)
+    * slides: [HTML](https://comp-think.github.io/2020-2021/slides/13%20-%20Organising%20information%20-%20graphs.html)
+    * Python: [graph_instructions.py](https://comp-think.github.io/python/graph_instructions.py), [multigraph_instructions.py](https://comp-think.github.io/python/multigraph_instructions.py), [graph_attribute_instructions.py](https://comp-think.github.io/python/graph_attribute_instructions.py)
+    * exercises: [1](https://github.com/comp-think/2020-2021/issues/36), [2](https://github.com/comp-think/2020-2021/issues/37)
     <hr />
 21. [11/11/20, *lab*] 8th Lesson
     <hr />
