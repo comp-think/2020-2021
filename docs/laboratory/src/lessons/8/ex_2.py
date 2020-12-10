@@ -17,12 +17,20 @@ dict_years = dict()
 for row in netflix_data:
     if row["date_added"] != "":
         year = row["date_added"].split(", ")[1]
-        if year not in dict_years:
-            dict_years[year] = 0
-        dict_years[year] += 1
+    if row["release_year"] != "":
+        release_year = row["release_year"]
+    delta = int(year) - int(release_year)
+    if year not in dict_years:
+        dict_years[year] = []
+    dict_years[year].append(delta)
+
+avg_dict_years = dict()
+for year in dict_years:
+    avg_dict_years[year] = sum(dict_years[year]) / len(dict_years[year])
+    avg_dict_years[year] = round(avg_dict_years[year],2)
 
 #I need to order the dict
-netflix_years = list(dict_years.items())
+netflix_years = list(avg_dict_years.items())
 sorted_netflix_years = sorted(netflix_years, key=lambda tup: tup[0])
 
 #define the data and labels to plot
@@ -32,16 +40,8 @@ for a_tup in sorted_netflix_years:
     data.append(a_tup[1])
     labels.append(a_tup[0])
 
-# x-Axis ticks and label
-plt.xticks(range(len(data)), labels)
+plt.plot(labels, data)
+plt.title('Netflix shows release vs addition')
+plt.ylabel('Average delta between the added and released year')
 plt.xlabel('Years')
-
-# y-Axis label
-plt.ylabel('Number of Shows')
-
-# chart title
-plt.title('Netflix shows per year')
-
-# plt a bar
-plt.bar(range(len(data)), data)
 plt.show()

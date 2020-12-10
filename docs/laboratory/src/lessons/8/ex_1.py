@@ -1,7 +1,7 @@
 import csv
 import matplotlib.pyplot as plt
 
-#----(open_csv)
+#open a csv and read it as a list of dicts
 def open_csv(f_path):
     result = []
     with open(f_path, mode='r') as csv_file:
@@ -12,7 +12,8 @@ def open_csv(f_path):
 
 netflix_data = open_csv("data/netflix_titles.csv")
 
-
+# define a dict based on the year values in "date_added"
+# for each year in the dict (key) count the number of shows
 dict_years = dict()
 for row in netflix_data:
     if row["date_added"] != "":
@@ -21,11 +22,12 @@ for row in netflix_data:
             dict_years[year] = 0
         dict_years[year] += 1
 
-#I need to order the dict
+# we convert the dict into a list of tuples
+# and we sort that list considering the first value of the tuple (the year)
 netflix_years = list(dict_years.items())
 sorted_netflix_years = sorted(netflix_years, key=lambda tup: tup[0])
 
-
+#define the data and labels we want to plot
 data = []
 labels = []
 for a_tup in sorted_netflix_years:
@@ -42,6 +44,6 @@ plt.ylabel('Number of Shows')
 # chart title
 plt.title('Netflix shows per year')
 
-# plt a bar
+# plt a barchart
 plt.bar(range(len(data)), data)
 plt.show()
