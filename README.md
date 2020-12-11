@@ -163,6 +163,7 @@ All the lecture notes and additional material of the laboratory are available at
     * exercises: [1](https://github.com/comp-think/2020-2021/issues/36), [2](https://github.com/comp-think/2020-2021/issues/37)
     <hr />
 21. [11/11/20, *lab*] 8th Lesson
+   * material: [HTML](https://comp-think.github.io/2020-2021/laboratory/lessons/8_lesson/)
     <hr />
 22. [14/12/20, *the*] Project: specification
     <hr />
