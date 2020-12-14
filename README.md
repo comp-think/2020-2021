@@ -161,11 +161,14 @@ All the lecture notes and additional material of the laboratory are available at
     * slides: [HTML](https://comp-think.github.io/2020-2021/slides/13%20-%20Organising%20information%20-%20graphs.html)
     * Python: [graph_instructions.py](https://comp-think.github.io/python/graph_instructions.py), [multigraph_instructions.py](https://comp-think.github.io/python/multigraph_instructions.py), [graph_attribute_instructions.py](https://comp-think.github.io/python/graph_attribute_instructions.py)
     * exercises: [1](https://github.com/comp-think/2020-2021/issues/36), [2](https://github.com/comp-think/2020-2021/issues/37)
+    * solutions: [1](https://comp-think.github.io/keys/13/exercise-1), [2](https://comp-think.github.io/keys/13/exercise-2)
     <hr />
 21. [11/11/20, *lab*] 8th Lesson
-   * material: [HTML](https://comp-think.github.io/2020-2021/laboratory/lessons/8_lesson/)
+    * material: [HTML](https://comp-think.github.io/2020-2021/laboratory/lessons/8_lesson/)
     <hr />
 22. [14/12/20, *the*] Project: specification
+    * slides: [HTML](https://comp-think.github.io/2020-2021/slides/14%20-%20Project.html)
+    * material: [GitHub](https://github.com/comp-think/2020-2021/tree/master/docs/project)
     <hr />
 23. [16/12/20, *the*] Greedy algorithms
     * book chapter: [PDF](https://comp-think.github.io/book/14.pdf), [Google Docs](https://comp-think.github.io/book/14)

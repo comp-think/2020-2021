@@ -1,0 +1,334 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Project</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/simple.css">
+		<link rel="stylesheet" href="css/ctc.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<link rel="stylesheet" href="css/addon.css"></link>
+		<link rel="stylesheet" href="css/font-awesome.min.css"></link>
+		<link rel="stylesheet" href="css/academicons.min.css"></link>
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section id="title" class="title_slide" role="doc-cover">
+					<h1>Project</h1>
+					<div class="author">
+						<p><a href="https://www.unibo.it/sitoweb/silvio.peroni/en">Silvio Peroni</a></p>
+						<p class="contact">
+							<i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:silvio.peroni@unibo.it">silvio.peroni@unibo.it</a>
+							<i class="ai ai-orcid" aria-hidden="true"></i> <a href="https://orcid.org/0000-0003-0530-4305">0000-0003-0530-4305</a>
+							<i class="fa fa-twitter" aria-hidden="true"></i> <a href="https://twitter.com/essepuntato">@essepuntato</a>
+						</p>
+						<p class="sst mtl"><a href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2020/424624">Computational Thinking and Programming (A.Y. 2020/2021)</a></p>
+						<p class="ssst"><a href="https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge">Second Cycle Degree in Digital Humanities and Digital Knowledge</a></p>
+						<p class="ssst"><a href="http://www.unibo.it/en">Alma Mater Studiorum - Università di Bologna</a></p>
+						<p class="license"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"></a> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a></p>
+					</div>
+				</section>
+
+				<section>
+					<h2>Bibliometrics Engine</h2>
+					<p>The name of the project is <em>Bibliometric Engine</em></p>
+					<p>It is a software that takes in input a file in a particular format (CSV), containing citations between scholarly documents, each identified by a digital object identifier (DOI)</p>
+                    <p>The goal of the software is to run particular analysis and extractions on such data</p>
+				</section>
+				
+				<section>
+					<h2>You need a group</h2>
+					<p>The project must be implemented by a group of people</p>
+					<p class="fragment">You need to</p>
+					<ul>
+						<li class="fragment"><p>form groups of at least 3 and at most 4 people</p></li>
+						<li class="fragment"><p>choose a name for the group (yes: a name) - it will be used to publish the ranks of the best-performing projects (more info later)</p></li>
+						<li class="fragment"><p>communicate the name of the group and its members (including their emails) to me by sending an email at <a href="mailto:silvio.peroni@unibo.it">silvio.peroni@unibo.it</a></p></li>
+					</ul>
+					<p class="fragment">Final deadline: all groups must be ready by next Wednesday at most (16 December)</p>
+				</section>
+				
+				<section>
+					<h2>Project stub (1/2)</h2>
+					<pre class="ssst"><span class="fragment highlight-red">&lt;group_name></span> import *
+
+class BibliometricEngine(object):
+    def __init__(self, metadata_file_path):
+        self.data = <span class="fragment highlight-red">process_citations(citations_file_path)</span>
+
+    def compute_impact_factor(self, dois, year):
+        return <span class="fragment highlight-red">do_compute_impact_factor(self.data, dois, year)</span>
+
+    def get_co_citations(self, doi1, doi2):
+        return <span class="fragment highlight-red">do_get_co_citations(self.data, doi1, doi2)</span>
+
+    def get_bibliographic_coupling(self, doi1, doi2):
+        return <span class="fragment highlight-red">do_get_bibliographic_coupling(self.data, doi1, doi2)</span>
+
+    def get_citation_network(self, start, end):
+        return <span class="fragment highlight-red">do_get_citation_network(self.data, start, end)</span>
+	
+    def merge_graphs(self, g1, g2):
+        return <span class="fragment highlight-red">do_merge_graphs(g1, g2)</span></pre>
+				</section>
+
+				<section>
+					<h2>Project stub (2/2)</h2>
+					<pre class="ssst">    def search_by_prefix(self, prefix, is_citing, dump):
+        if dump is None:
+            return <span class="fragment highlight-red">do_search_by_prefix(self.data, prefix, is_citing)</span>
+        else:
+            return <span class="fragment highlight-red">do_search_by_prefix(dump, prefix, is_citing)</span>
+
+    def search(self, query, field, dump):
+        if dump is None:
+            return <span class="fragment highlight-red">do_search(self.data, query, field)</span>
+        else:
+            return <span class="fragment highlight-red">do_search(dump, query, field)</span>
+	
+    def filter_by_value(self, query, field, dump):
+        if dump is None:
+            return <span class="fragment highlight-red">do_filter_by_value(self.data, query, field)</span>
+        else:
+            return <span class="fragment highlight-red">do_filter_by_value(dump, query, field)</span></pre>
+				</section>
+				
+				<section>
+					<h2>Your output</h2>
+					<p class="mbs">You have to develop a Python file named as your group, where spaces are substituted by underscores and the whole file is lowercase</p>
+					<p class="mtn">E.g.: group <em>Best group ever</em>, file <code>best_group_ever.py</code></p>
+					<div class="fragment">
+						<p class="mbs">The import statement must specify the module implemented</p>
+						<p class="mtn">E.g.: <code>from best_group_ever import *</code></p>
+					</div>
+					<p class="fragment">Each group has to implement the seven functions that have been highlighted in red in the previous slide</p>
+				</section>
+				
+				<section>
+					<h2>process_citations</h2>
+					<p><code>def process_citations(citations_file_path)</code></p>
+					<p>It takes in input a comma separated value (CSV) file, and return a data structure containing all the data included in the CSV is some form</p>
+					<p>The data can be preprocessed, changed according to some empirical rule, ordered in a certain way, etc.</p>
+					<p>These data will be automatically provided in input to the other functions</p>
+				</section>
+
+                <section>
+					<h2>Example of CSV citation data</h2>
+					<table class="sst">
+						<tr>
+							<td>citing</td>
+							<td>cited</td>
+							<td>creation</td>
+							<td>timespan</td>
+						</tr>
+						<tr>
+							<td>10.2964/jsik_2020_003</td>
+							<td>10.1007/s11192-019-03217-6</td>
+							<td>2020-02-29</td>
+							<td>P0Y5M15D</td>
+						</tr>
+						<tr>
+							<td>10.1007/s11192-019-03311-9</td>
+							<td>10.1007/s11192-019-03217-6</td>
+							<td>2019-12-04</td>
+							<td>P0Y2M20D</td>
+						</tr>
+						<tr>
+							<td>10.1007/s11192-019-03217-6</td>
+							<td>10.1007/978-3-030-00668-6_8</td>
+							<td>2019-09-14</td>
+							<td>P1Y</td>
+						</tr>
+						<tr>
+							<td>10.1007/s11192-019-03217-6</td>
+							<td>10.1007/978-3-319-11955-7_42</td>
+							<td>2019-09-14</td>
+							<td>P5Y</td>
+						</tr>
+						<tr>
+							<td>...</td>
+							<td>...</td>
+							<td>...</td>
+							<td>...</td>
+						</tr>
+					</table>
+					<div class="sst">
+						<p class="fragment">citing (string): the <a href="https://en.wikipedia.org/wiki/Digital_object_identifier">DOI</a> of a citing article</p>
+						<p class="fragment">cited (string): the <a href="https://en.wikipedia.org/wiki/Digital_object_identifier">DOI</a> of a cited article</p>
+						<p class="fragment">creation (string): publication date of the citing article (<a href="https://en.wikipedia.org/wiki/ISO_8601">date format</a>: <code>YYYY-MM-DD</code>, <code>YYYY-MM</code> or <code>YYYY</code>)</p>
+						<p class="fragment">timespan (string): the difference between the publication date of the citing article and the publication date of the cited article (<a href="https://en.wikipedia.org/wiki/ISO_8601#Durations">duration format</a>): <code>PnYnMnD</code>, <code>PnYnM</code>, or <code>PnYn</code>, plus <q>-</q> before <code>P</code> for negative durations</p>
+					</div>
+				</section>
+
+				<section>
+					<h2>do_compute_impact_factor</h2>
+					<p><code>def do_compute_impact_factor(data, dois, year)</code></p>
+                    <p class="fragment">data: the data returned by <code>process_citations</code></p>
+					<p class="fragment">dois: a set of DOIs identifying articles</p>
+					<p class="fragment">year: a string in format `YYYY` to consider</p>
+                    <p class="fragment st">It returns a number which is the result of the computation of the Impact Factor (IF) for such documents. The IF of a set of documents <code>dois</code> on a year `year` is computed by counting the number of citations all the documents in <code>dois</code> have received in year <code>year</code>, and then dividing such a value by the number of documents in <code>dois</code> published in the previous two years (i.e. in <code>year-1</code> and <code>year-2</code>).</p>
+				</section>
+
+				<section>
+					<h2>do_get_co_citations</h2>
+					<p><code>def do_get_co_citations(data, doi1, doi2)</code></p>
+                    <p class="fragment">data: the data returned by <code>process_citations</code></p>
+					<p class="fragment">doi1: the DOI string of the first article</p>
+					<p class="fragment">doi2: the DOI string of the first article</p>
+                    <p class="fragment">It returns an integer defining how many times the two input documents are cited <strong>together by other documents</strong>.</p>
+				</section>
+
+				<section>
+					<h2>do_get_bibliographic_coupling</h2>
+					<p><code>def do_get_bibliographic_coupling(data, doi1, doi2)</code></p>
+                    <p class="fragment">data: the data returned by <code>process_citations</code></p>
+                    <p class="fragment">doi1: the DOI string of the first article</p>
+					<p class="fragment">doi2: the DOI string of the first article</p>
+                    <p class="fragment">It returns an integer defining how many times the two input documents cite both <strong>the same document</strong>.</p>
+				</section>
+
+				<section>
+					<h2>do_get_citation_network</h2>
+					<p><code>def do_get_citation_network(data, start, end)</code></p>
+                    <p class="fragment">data: the data returned by <code>process_citations</code></p>
+					<p class="fragment">start: a string defining the starting year to consider (format: `YYYY`)</p>
+					<p class="fragment">end: a string defining the ending year to consider (format: `YYYY`) - it must be equal to or greater than <code>start</code></p>
+                    <p class="fragment st">It returns a directed graph containing all the articles involved in citations if both of them have been published within the input <code>start</code>-<code>end</code> interval (<code>start</code> and <code>end</code> included). Use the DOIs of the articles involved in citations as name of the nodes.</p>
+				</section>
+
+				<section>
+					<h2>do_merge_graphs</h2>
+					<p><code>def do_merge_graphs(data, g1, g2)</code></p>
+                    <p class="fragment">data: the data returned by <code>process_citations</code></p>
+					<p class="fragment">g1: the first graph to consider</p>
+					<p class="fragment">g2: the first graph to consider</p>
+                    <p class="fragment">It returns a new graph being the merge of the two input graphs if these are of the same type (e.g. both DiGraphs). In case the types of the graphs are different, return <code>None</code>.</p>
+				</section>
+
+				<section>
+					<h2>do_search_by_prefix</h2>
+					<p><code>def do_search_by_prefix(data, prefix, is_citing)</code></p>
+                    <p class="fragment">data: the data returned by <code>process_citations</code> or by other search/filter activities</p>
+					<p class="fragment">prefix: a string defining the precise prefix (i.e. the part before the first slash) of a DOI</p>
+					<p class="fragment">is_citing: a boolean telling if the operation should be run on citing articles or not</p>
+                    <p class="fragment sst">It returns a sub-collection of citations in <code>data</code> where either the citing DOI (if <code>is_citing</code> is <code>True</code>) or the cited DOI (if <code>is_citing</code> is <code>False</code>) is characterised by the input prefix.</p>
+				</section>
+
+				<section>
+					<h2>do_search</h2>
+					<p><code>def do_search(data, query, field)</code></p>
+                    <p class="fragment">data: the data returned by <code>process_citations</code></p>
+					<p class="fragment">query: a string defining the query to do on the data</p>
+					<p class="fragment">field: a string defining the column (it can be either <em>citing</em>, <em>cited</em>, <em>creation</em>, <em>timespan</em>) on which running the query</p>
+                    <p class="fragment">It returns a sub-collection of citations in <code>data</code> where the query matched on the input field. It is possible to use wildcards in the query. If no wildcards are used, there should be a complete match with the string in <code>query</code> to return that citation in the results.</p>
+				</section>
+
+				<section>
+					<h2>Wild cards and operators</h2>
+					<p>Multiple wildcards <q>*</q> can be used in <code>query</code>. E.g. <q>World*Web</q> looks for all the strings that matches with the word <q>World</q> followed by zero or more characters, followed by the word <q>Web</q> (examples: <q>World Wide Web</q>, <q>World Spider Web</q>, etc.).</p>
+					<p class="fragment">Boolean operators can be used: <code>and</code>, <code>or</code>, <code>not</code><br/><code>&lt;tokens 1> &lt;operator> &lt;tokens 2></code></p>
+					<p class="fragment">All matches are case insensitive – e.g. specifying <q>World</q> as <code>query</code> will match also strings that contain <q>world</q></p>
+				</section>
+
+				<section>
+					<h2>do_filter_by_value</h2>
+					<p><code>def do_filter_by_value(data, query, field)</code></p>
+                    <p class="fragment">data: the data returned by <code>process_citations</code></p>
+                    <p class="fragment">query: a string defining the query to do on the data</p>
+					<p class="fragment">field: a string defining column (it can be either <em>citing</em>, <em>cited</em>, <em>creation</em>, <em>timespan</em>) on which running the query</p>
+					<p class="fragment">It returns a sub-collection of citations in <code>data</code> where the query matched on the input field. No wildcarts are permitted in the query, only comparisons.</p>
+				</section>
+
+				<section>
+					<h2>Comparison and operators</h2>
+					<p>
+						Comparison operator can be used in <code>query</code>: <code>&lt;</code>, <code>></code>, <code>&lt;=</code>, <code>>=</code>, <code>==</code>, <code>!=</code><br />
+						<code>&lt;tokens 1> &lt;operator> &lt;tokens 2></code>
+					</p>
+					<p class="fragment">Boolean operators can be used: <code>and</code>, <code>or</code>, <code>not</code><br/><code>&lt;tokens 1> &lt;operator> &lt;tokens 2></code></p>
+					<p class="fragment">All matches are case insensitive – e.g. specifying <q>World</q> as <code>query</code> will match also strings that contain <q>world</q></p>
+				</section>
+
+                <section>
+                    <h2>A suggestion</h2>
+                    <p>Use the test-driven development to understand when you are doing the right job</p>
+                </section>
+
+				<section>
+					<h2>Submission</h2>
+					<p>The project, i.e. the implementation of the functions including any additional ancillary function developed, must be included in a single file named as your group, e.g. <code>best_group_ever.py</code></p>
+					<p>The file must be sent by email to me at <a href="mailto:silvio.peroni@unibo.it">silvio.peroni@unibo.it</a></p>
+					<p class="fragment">Submission: 2 days before the exam session (the whole group must attend the session) – e.g. send the project the 27th of January for discussing it on the session of the 29th of January</p>
+					<p class="fragment">Your project will be compared with the others in terms of efficiency (i.e. time needed for addressing specific tasks)</p>
+				</section>
+				
+				<section>
+					<h2>Evaluation</h2>
+					<p>Maximum score = c-score + e-score + o-score = 16</p>
+					<p>All projects will run on large CSV files</p>
+					<p class="fragment">Correctness of the result: c-score &lt;= 4</p>
+					<p class="fragment mbs">Efficiency of the software: e-score &lt;= 4; projects ranked according to the time spent for addressing various tasks</p>
+					<ol class="fragment mll sst mtn">
+						<li><p>e-score = 4</p></li>
+						<li><p>e-score = 3</p></li>
+						<li><p>e-score = 2</p></li>
+						<li><p>e-score = 1</p></li>
+					</ol>
+					<p class="fragment mbs">Oral colloquium: -8 &lt;= o-score &lt;= 8; it is a personal score, each member of the group has its own</p>
+					<p class="fragment sst mtn">At least 2 for passing the exam, otherwise an additional effort is required (new function)</p>
+				</section>
+
+				<section class="title_slide">
+					<h2>
+						END
+						<span class="subtitle">Project</span>
+					</h2>
+					<div class="author">
+						<p><a href="https://www.unibo.it/sitoweb/silvio.peroni/en">Silvio Peroni</a></p>
+						<p class="contact">
+							<i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:silvio.peroni@unibo.it">silvio.peroni@unibo.it</a>
+							<i class="ai ai-orcid" aria-hidden="true"></i> <a href="https://orcid.org/0000-0003-0530-4305">0000-0003-0530-4305</a>
+							<i class="fa fa-twitter" aria-hidden="true"></i> <a href="https://twitter.com/essepuntato">@essepuntato</a>
+						</p>
+						<p class="sst mtl"><a href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2020/424624">Computational Thinking and Programming (A.Y. 2020/2021)</a></p>
+						<p class="ssst"><a href="https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge">Second Cycle Degree in Digital Humanities and Digital Knowledge</a></p>
+						<p class="ssst"><a href="http://www.unibo.it/en">Alma Mater Studiorum - Università di Bologna</a></p>
+					</div>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
