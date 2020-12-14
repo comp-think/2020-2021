@@ -38,7 +38,7 @@ class BibliometricEngine(object):
         return do_get_citation_network(self.data, start, end)
     
     def merge_graphs(self, g1, g2):
-        return do_merge_graphs(g1, g2)
+        return do_merge_graphs(self.data, g1, g2)
 
     def search_by_prefix(self, prefix, is_citing, dump):
         if dump is None:

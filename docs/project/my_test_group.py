@@ -17,32 +17,32 @@
 # This file is just a stub of the particular module that every group should
 # implement for making its project work. In fact, all these functions returns None,
 # which is not compliant at all with the specifications that have been provided at
-# https://comp-think.github.io/2019-2020/slides/14%20-%20Project.html
+# https://comp-think.github.io/2020-2021/slides/14%20-%20Project.html
 
 
-def process_metadata(file_path):
-    return None
+def process_citations(citations_file_path):
+    pass
 
+def do_compute_impact_factor(data, dois, year):
+    pass
 
-def do_get_ids(data, str_value, field_set):
-    return None
+def do_get_co_citations(data, doi1, doi2):
+    pass
 
+def do_get_bibliographic_coupling(data, doi1, doi2):
+    pass
 
-def do_get_by_id(data, id, field_set):
-    return None
+def do_get_citation_network(data, start, end):
+    pass
 
+def do_merge_graphs(data, g1, g2):
+    pass
 
-def do_filter(data, field_value_list):
-    return None
+def do_search_by_prefix(data, prefix, is_citing):
+    pass
 
+def do_search(data, query, field):
+    pass
 
-def do_coauthor_graph(data, author_id, level):
-    return None
-
-
-def do_author_network(data):
-    return None
-
-
-def do_retrieve_tree_of_venues(data, no_ids):
-    return None
+def do_filter_by_value(data, query, field):
+    pass
