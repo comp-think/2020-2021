@@ -180,8 +180,8 @@ class BibliometricEngine(object):
 					<p><code>def do_compute_impact_factor(data, dois, year)</code></p>
                     <p class="fragment">data: the data returned by <code>process_citations</code></p>
 					<p class="fragment">dois: a set of DOIs identifying articles</p>
-					<p class="fragment">year: a string in format `YYYY` to consider</p>
-                    <p class="fragment st">It returns a number which is the result of the computation of the Impact Factor (IF) for such documents. The IF of a set of documents <code>dois</code> on a year `year` is computed by counting the number of citations all the documents in <code>dois</code> have received in year <code>year</code>, and then dividing such a value by the number of documents in <code>dois</code> published in the previous two years (i.e. in <code>year-1</code> and <code>year-2</code>).</p>
+					<p class="fragment">year: a string in format <code>YYYY</code> to consider</p>
+                    <p class="fragment st">It returns a number which is the result of the computation of the Impact Factor (IF) for such documents. The IF of a set of documents <code>dois</code> on a year <code>year</code> is computed by counting the number of citations all the documents in <code>dois</code> have received in year <code>year</code>, and then dividing such a value by the number of documents in <code>dois</code> published in the previous two years (i.e. in <code>year-1</code> and <code>year-2</code>).</p>
 				</section>
 
 				<section>
@@ -206,8 +206,8 @@ class BibliometricEngine(object):
 					<h2>do_get_citation_network</h2>
 					<p><code>def do_get_citation_network(data, start, end)</code></p>
                     <p class="fragment">data: the data returned by <code>process_citations</code></p>
-					<p class="fragment">start: a string defining the starting year to consider (format: `YYYY`)</p>
-					<p class="fragment">end: a string defining the ending year to consider (format: `YYYY`) - it must be equal to or greater than <code>start</code></p>
+					<p class="fragment">start: a string defining the starting year to consider (format: <code>YYYY</code>)</p>
+					<p class="fragment">end: a string defining the ending year to consider (format: <code>YYYY</code>) - it must be equal to or greater than <code>start</code></p>
                     <p class="fragment st">It returns a directed graph containing all the articles involved in citations if both of them have been published within the input <code>start</code>-<code>end</code> interval (<code>start</code> and <code>end</code> included). Use the DOIs of the articles involved in citations as name of the nodes.</p>
 				</section>
 
