@@ -116,7 +116,7 @@ class BibliometricEngine(object):
 						<p class="mbs">The import statement must specify the module implemented</p>
 						<p class="mtn">E.g.: <code>from best_group_ever import *</code></p>
 					</div>
-					<p class="fragment">Each group has to implement the seven functions that have been highlighted in red in the previous slide</p>
+					<p class="fragment">Each group has to implement the functions that have been highlighted in red in the previous slide</p>
 				</section>
 				
 				<section>
@@ -171,7 +171,7 @@ class BibliometricEngine(object):
 						<p class="fragment">citing (string): the <a href="https://en.wikipedia.org/wiki/Digital_object_identifier">DOI</a> of a citing article</p>
 						<p class="fragment">cited (string): the <a href="https://en.wikipedia.org/wiki/Digital_object_identifier">DOI</a> of a cited article</p>
 						<p class="fragment">creation (string): publication date of the citing article (<a href="https://en.wikipedia.org/wiki/ISO_8601">date format</a>: <code>YYYY-MM-DD</code>, <code>YYYY-MM</code> or <code>YYYY</code>)</p>
-						<p class="fragment">timespan (string): the difference between the publication date of the citing article and the publication date of the cited article (<a href="https://en.wikipedia.org/wiki/ISO_8601#Durations">duration format</a>): <code>PnYnMnD</code>, <code>PnYnM</code>, or <code>PnYn</code>, plus <q>-</q> before <code>P</code> for negative durations</p>
+						<p class="fragment">timespan (string): the difference between the publication date of the citing article and the publication date of the cited article (<a href="https://en.wikipedia.org/wiki/ISO_8601#Durations">duration format</a>): <code>PnYnMnD</code>, <code>PnYnM</code>, or <code>PnY</code>, plus <q>-</q> before <code>P</code> for negative durations</p>
 					</div>
 				</section>
 
@@ -216,7 +216,7 @@ class BibliometricEngine(object):
 					<p><code>def do_merge_graphs(data, g1, g2)</code></p>
                     <p class="fragment">data: the data returned by <code>process_citations</code></p>
 					<p class="fragment">g1: the first graph to consider</p>
-					<p class="fragment">g2: the first graph to consider</p>
+					<p class="fragment">g2: the second graph to consider</p>
                     <p class="fragment">It returns a new graph being the merge of the two input graphs if these are of the same type (e.g. both DiGraphs). In case the types of the graphs are different, return <code>None</code>.</p>
 				</section>
 
@@ -232,7 +232,7 @@ class BibliometricEngine(object):
 				<section>
 					<h2>do_search</h2>
 					<p><code>def do_search(data, query, field)</code></p>
-                    <p class="fragment">data: the data returned by <code>process_citations</code></p>
+                    <p class="fragment">data: the data returned by <code>process_citations</code> or by other search/filter activities</p>
 					<p class="fragment">query: a string defining the query to do on the data</p>
 					<p class="fragment">field: a string defining the column (it can be either <em>citing</em>, <em>cited</em>, <em>creation</em>, <em>timespan</em>) on which running the query</p>
                     <p class="fragment">It returns a sub-collection of citations in <code>data</code> where the query matched on the input field. It is possible to use wildcards in the query. If no wildcards are used, there should be a complete match with the string in <code>query</code> to return that citation in the results.</p>
@@ -248,7 +248,7 @@ class BibliometricEngine(object):
 				<section>
 					<h2>do_filter_by_value</h2>
 					<p><code>def do_filter_by_value(data, query, field)</code></p>
-                    <p class="fragment">data: the data returned by <code>process_citations</code></p>
+                    <p class="fragment">data: the data returned by <code>process_citations</code> or by other search/filter activities</p>
                     <p class="fragment">query: a string defining the query to do on the data</p>
 					<p class="fragment">field: a string defining column (it can be either <em>citing</em>, <em>cited</em>, <em>creation</em>, <em>timespan</em>) on which running the query</p>
 					<p class="fragment">It returns a sub-collection of citations in <code>data</code> where the query matched on the input field. No wildcarts are permitted in the query, only comparisons.</p>
