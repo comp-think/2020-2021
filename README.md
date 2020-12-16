@@ -172,7 +172,12 @@ All the lecture notes and additional material of the laboratory are available at
     <hr />
 23. [16/12/20, *the*] Greedy algorithms
     * book chapter: [PDF](https://comp-think.github.io/book/14.pdf), [Google Docs](https://comp-think.github.io/book/14)
+    * slides: [HTML](https://comp-think.github.io/2020-2021/slides/15%20-%20Greedy%20algorithms.html)
+    * Python: [line_wrap.py](https://comp-think.github.io/python/line_wrap.py)
+    * exercises: [1](https://github.com/comp-think/2020-2021/issues/38), [2](https://github.com/comp-think/2020-2021/issues/39)
     <hr />
+24. [16/12/20, *the*] Ask a thesis
+    * slides: [HTML](https://comp-think.github.io/2020-2021/slides/16%20-%20Ask%20a%20thesis.html)
 
 
 ### Schedule
