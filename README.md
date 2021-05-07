@@ -217,7 +217,7 @@ All the lecture notes and additional material of the laboratory are available at
 * 15 March 2021
 * 17 May 2021
 * 14 June 2021
-* 12 July 2021
+* 7 July 2021
 * 20 September 2021
 
 
