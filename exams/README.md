@@ -2,6 +2,27 @@
 
 In this page it is possible to find the link to the various written examination of the course Computational Thinking and Programming, academic year 2020/2021.
 
+## 17 May 2021 written examination
+
+**Text of the exam:** [PDF](./written-examination-2021-05-17.pdf)
+
+**Solutions:**
+* Section 1 (theory):
+  1. In Python, a list is a mutable object, The recursive-step is one of the main step of backtracking
+     
+  2. `[]`
+     
+  3. [Solution](https://comp-think.github.io/exercises/development/beginner/exercise-19) available online.
+  
+  4. There are two characteristics that a computational problem should show to be sure that the application of a greedy approach will bring to an optimal solution to the problem:
+     * greedy choice property – at a particular step, we can choose the best candidate for improving the set of candidates bringing to a solution;
+     * optimal substructure – the optimal solution to a computational problem is built by considering the optimal solutions to its subproblems.
+
+* Section 2 (understanding): [Solution](https://comp-think.github.io/exercises/understanding/advanced/exercise-22) available online.
+
+* Section 3 (development): [Solution](https://comp-think.github.io/exercises/development/advanced/exercise-22) available online.
+
+
 ## 15 March 2021 written examination
 
 **Text of the exam:** [PDF](./written-examination-2021-03-15.pdf)
