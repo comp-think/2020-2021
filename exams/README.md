@@ -2,6 +2,52 @@
 
 In this page it is possible to find the link to the various written examination of the course Computational Thinking and Programming, academic year 2020/2021.
 
+
+## 7 July 2021 written examination
+
+**Text of the exam:** [PDF](./written-examination-2021-07-07.pdf)
+
+**Solutions:**
+* Section 1 (theory):
+  1. A queue is a countable sequence of ordered and repeatable elements.
+     
+     A dictionary is a countable collection of unordered key-value pairs, where the key is non- repeatable in the dictionary.
+     
+  2. The second `return 0` should be `return 1`, and `fib_dc(n-3)` should be `fib_dc(n-2)`
+     
+  3. [Solution](https://comp-think.github.io/exercises/development/beginner/exercise-21) available online.
+  
+  4. Backtracking in an algorithic technique that tries to find a solution to a particular computational problem by identifying possible candidate solutions incrementally. It abandons partial candidates once it is clear that they will not be able to provide a solution to the problem. At each step of the execution, a backtracking algorithm considers a particular node of the tree of choices as input, that is addressed according to one of the following steps:
+     * [leaf-win] if the current node is a leaf, and it represents a solution to the problem, then return the sequence of all the moves that have generated the successful situation; otherwise,
+     * [leaf-lose] if the current node is a leaf, but it is not a solution to the problem, then return no solution to the parent node; otherwise,
+     * [recursive-step] apply the whole approach recursively for each child of the current node, until one of these recursive executions returns a solution. If none of them provides a solution, return no solution to the parent node of the current one.
+
+* Section 2 (understanding): [Solution](https://comp-think.github.io/exercises/understanding/advanced/exercise-24) available online.
+
+* Section 3 (development): [Solution](https://comp-think.github.io/exercises/development/advanced/exercise-24) available online.
+
+
+## 14 June 2021 written examination
+
+**Text of the exam:** [PDF](./written-examination-2021-06-14.pdf)
+
+**Solutions:**
+* Section 1 (theory):
+  1. The three main kinds of programming languages are machine language, low-level programming languages, and high-level programming languages
+  
+     The Turing machine can simulate any algorithm
+     
+  2. [Solution](https://comp-think.github.io/exercises/understanding/beginner/exercise-12) available online.
+     
+  3. [Solution](https://comp-think.github.io/exercises/development/beginner/exercise-20) available online.
+  
+  4. A recursive function is a function defined in terms of itself (i.e. it calls itself in its body). It is used as an alternative to iteration when a solution to a particular computational problem depends on the partial solutions of smaller instances of the same problem. In particular, a recursive function has one or more basic cases and at least one recursive step. Each basic case describes a terminating scenario and does not use any recursion to produce the answer to a specific (sub-)problem. Instead, the recursion step is where the same algorithm is executed again with a different (and, usually, reduced) input.
+
+* Section 2 (understanding): [Solution](https://comp-think.github.io/exercises/understanding/advanced/exercise-23) available online.
+
+* Section 3 (development): [Solution](https://comp-think.github.io/exercises/development/advanced/exercise-23) available online.
+
+
 ## 17 May 2021 written examination
 
 **Text of the exam:** [PDF](./written-examination-2021-05-17.pdf)
@@ -10,7 +56,7 @@ In this page it is possible to find the link to the various written examination 
 * Section 1 (theory):
   1. In Python, a list is a mutable object, The recursive-step is one of the main step of backtracking
      
-  2. `[]`
+  2. [Solution](https://comp-think.github.io/exercises/understanding/beginner/exercise-11) available online.
      
   3. [Solution](https://comp-think.github.io/exercises/development/beginner/exercise-19) available online.
   
@@ -50,7 +96,7 @@ In this page it is possible to find the link to the various written examination 
 * Section 1 (theory):
   1. divide and conquer, dynamic programming
      
-  2. -7
+  2. [Solution](https://comp-think.github.io/exercises/understanding/beginner/exercise-10) available online.
      
   3. [Solution](https://comp-think.github.io/exercises/development/beginner/exercise-17) available online.
   
