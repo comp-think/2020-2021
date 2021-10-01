@@ -3,6 +3,30 @@
 In this page it is possible to find the link to the various written examination of the course Computational Thinking and Programming, academic year 2020/2021.
 
 
+## 20 September 2021 written examination
+
+**Text of the exam:** [PDF](./written-examination-2021-09-20.pdf)
+
+**Solutions:**
+* Section 1 (theory):
+  1. greedy
+     
+     backtracking
+     
+  2. `if position == value_to_search` should be `if item == value_to_search`, and `return item` should be `return position`
+     
+  3. [Solution](https://comp-think.github.io/exercises/development/beginner/exercise-22) available online.
+  
+  4. We can distinguish three macro-sets of programming languages:
+     * machine language is a set of instructions that can be executed directly by the central processing unit (CPU) of an electronic computer;
+     * low-level programming languages are languages that provide one abstraction level on top of the machine language and allow one to write programs in a way that is more intelligible to humans;
+     * high-level programming languages are languages which are characterised by a strong abstraction from the specifiability of the machine language, and they may use natural language words for specific constructs, to be easy to use and to understand by humans.
+
+* Section 2 (understanding): [Solution](https://comp-think.github.io/exercises/understanding/advanced/exercise-25) available online.
+
+* Section 3 (development): [Solution](https://comp-think.github.io/exercises/development/advanced/exercise-25) available online.
+
+
 ## 7 July 2021 written examination
 
 **Text of the exam:** [PDF](./written-examination-2021-07-07.pdf)
