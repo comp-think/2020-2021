@@ -17,7 +17,7 @@ This space contains all the material related to the [Computational Thinking and 
 
 ### Book and notes
 
-The official book of the course, <cite><a href="https://comp-think.github.io/">Computational Thinking and Programming book</a></cite>, is available online in PDF format. Google Docs links are provided for each chapter, to enable students to comment and suggest improvements. The suggested accompanying book for Python coding, <cite><a href="https://www.digitalocean.com/community/books/digitalocean-ebook-how-to-code-in-python">How To Code in Python</a> by Lisa Tagliaferri</cite>, is also freely available online in PDF and EPUB formats.
+The official book of the course, <cite><a href="https://comp-think.github.io/">Computational Thinking and Programming book</a></cite>, is available online in PDF format. The suggested accompanying book for Python coding, <cite><a href="https://www.digitalocean.com/community/books/digitalocean-ebook-how-to-code-in-python">How To Code in Python</a> by Lisa Tagliaferri</cite>, is also freely available online in PDF and EPUB formats.
 
 All the lecture notes and additional material of the laboratory are available at <a href="https://comp-think.github.io/2020-2021/laboratory/">https://comp-think.github.io/2020-2021/laboratory/</a>.
 
@@ -32,26 +32,26 @@ All the lecture notes and additional material of the laboratory are available at
    * slides: [HTML](https://comp-think.github.io/2020-2021/slides/00%20-%20Course%20introduction.html)
    <hr />
 1. [14/10/20, *the*] Introduction to Computational Thinking 
-   * book chapter: [PDF](https://comp-think.github.io/book/01.pdf), [Google Docs](https://comp-think.github.io/book/01)
+   * book chapter: [PDF](https://comp-think.github.io/book/01.pdf)
    * slides: [HTML](https://comp-think.github.io/2020-2021/slides/01%20-%20Introduction%20to%20Computational%20Thinking.html)
    * exercises: [1](https://github.com/comp-think/2020-2021/issues/1), [2](https://github.com/comp-think/2020-2021/issues/2), [3](https://github.com/comp-think/2020-2021/issues/3)
    * solutions: [1](https://comp-think.github.io/keys/01/exercise-1), [2](https://comp-think.github.io/keys/01/exercise-2), [3](https://comp-think.github.io/keys/01/exercise-3)
    <hr />
 2. [16/10/20, *the*] Algorithms 
-   * book chapter: [PDF](https://comp-think.github.io/book/02.pdf), [Google Docs](https://comp-think.github.io/book/02)
+   * book chapter: [PDF](https://comp-think.github.io/book/02.pdf)
    * slides: [HTML](https://comp-think.github.io/2020-2021/slides/02%20-%20Algorithms.html)
    * exercises: [1](https://github.com/comp-think/2020-2021/issues/4), [2](https://github.com/comp-think/2020-2021/issues/5), [3](https://github.com/comp-think/2020-2021/issues/6)
    * solutions [1](https://comp-think.github.io/keys/02/exercise-1), [2](https://comp-think.github.io/keys/02/exercise-2), [3](https://comp-think.github.io/keys/02/exercise-3)
    <hr />
 3. [19/10/20, *the*] Computability  
-   * book chapter: [PDF](https://comp-think.github.io/book/03.pdf), [Google Docs](https://comp-think.github.io/book/03)
+   * book chapter: [PDF](https://comp-think.github.io/book/03.pdf)
    * slides: [HTML](https://comp-think.github.io/2020-2021/slides/03%20-%20Computability.html)
    * exercises: [1](https://github.com/comp-think/2020-2021/issues/7), [2](https://github.com/comp-think/2020-2021/issues/8), [3](https://github.com/comp-think/2020-2021/issues/9)
    * solutions [1](https://comp-think.github.io/keys/03/exercise-1), [2](https://comp-think.github.io/keys/03/exercise-2), [3](https://comp-think.github.io/keys/03/exercise-3)
    * additional material: [Asymptotic notation](https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation), [Introduction to Asymptotic Analysis](https://www.cs.cornell.edu/courses/cs312/2004fa/lectures/lecture16.htm), [Analysis of Algorithms](https://www.geeksforgeeks.org/analysis-of-algorithms-set-1-asymptotic-analysis/)
    <hr />
 4. [21/10/20, *the*] Programming languages  
-   * book chapter: [PDF](https://comp-think.github.io/book/04.pdf), [Google Docs](https://comp-think.github.io/book/04)
+   * book chapter: [PDF](https://comp-think.github.io/book/04.pdf)
    * slides: [HTML](https://comp-think.github.io/2020-2021/slides/04%20-%20Programming%20languages.html)
    * from [How To Code in Python](https://www.digitalocean.com/community/books/digitalocean-ebook-how-to-code-in-python):
      * Chapter "Understanding Data Types": introductory paragraphs and sections "Background", "Numbers", "Floating-Point Numbers", "Booleans", "Strings"
@@ -67,7 +67,7 @@ All the lecture notes and additional material of the laboratory are available at
    * material: [HTML](https://comp-think.github.io/2020-2021/laboratory/lessons/1_lesson/)
    <hr />
 6. [26/10/20, *the*] Organising information: ordered structures
-   * book chapter: [PDF](https://comp-think.github.io/book/05.pdf), [Google Docs](https://comp-think.github.io/book/05)
+   * book chapter: [PDF](https://comp-think.github.io/book/05.pdf)
    * slides: [HTML](https://comp-think.github.io/2020-2021/slides/05%20-%20Organising%20information%20-%20ordered%20structures.html)
    * from [How To Code in Python](https://www.digitalocean.com/community/books/digitalocean-ebook-how-to-code-in-python):
      * Chapter "How To Write Comments": all content
@@ -83,7 +83,7 @@ All the lecture notes and additional material of the laboratory are available at
    * material: [HTML](https://comp-think.github.io/2020-2021/laboratory/lessons/2_lesson/)
    <hr />
 8. [30/10/20, *the*] Brute-force algorithms
-   * book chapter: [PDF](https://comp-think.github.io/book/06.pdf), [Google Docs](https://comp-think.github.io/book/06)
+   * book chapter: [PDF](https://comp-think.github.io/book/06.pdf)
    * slides: [HTML](https://comp-think.github.io/2020-2021/slides/06%20-%20Brute-force%20algorithms.html)
    * from [How To Code in Python](https://www.digitalocean.com/community/books/digitalocean-ebook-how-to-code-in-python):
      * Chapter "How To Construct While Loops": all content
@@ -96,7 +96,7 @@ All the lecture notes and additional material of the laboratory are available at
    * solutions [1](https://comp-think.github.io/keys/06/exercise-1), [2](https://comp-think.github.io/keys/06/exercise-2), [3](https://comp-think.github.io/keys/06/exercise-3), [4](https://comp-think.github.io/keys/06/exercise-4), [5](https://comp-think.github.io/keys/06/exercise-5)
    <hr />
 9. [09/11/20, *the*] Organising information: unordered structures
-   * book chapter: [PDF](https://comp-think.github.io/book/07.pdf), [Google Docs](https://comp-think.github.io/book/07)
+   * book chapter: [PDF](https://comp-think.github.io/book/07.pdf)
    * slides: [HTML](https://comp-think.github.io/2020-2021/slides/07%20-%20Organising%20information%20-%20unordered%20structures.html)
    * from [How To Code in Python](https://www.digitalocean.com/community/books/digitalocean-ebook-how-to-code-in-python):
      * Chapter "Understanding Data Types": section "Dictionaries"
@@ -110,7 +110,7 @@ All the lecture notes and additional material of the laboratory are available at
    * material: [HTML](https://comp-think.github.io/2020-2021/laboratory/lessons/3_lesson/)
     <hr />
 11. [13/11/20, *the*] Recursion
-    * book chapter: [PDF](https://comp-think.github.io/book/08.pdf), [Google Docs](https://comp-think.github.io/book/08)
+    * book chapter: [PDF](https://comp-think.github.io/book/08.pdf)
     * slides: [HTML](https://comp-think.github.io/2020-2021/slides/08%20-%20Recursion.html)
     * Python: [run_forever_recursive.py](https://comp-think.github.io/python/run_forever_recursive.py), [multiplication.py](https://comp-think.github.io/python/multiplication.py)
     * exercises: [1](https://github.com/comp-think/2020-2021/issues/24), [2](https://github.com/comp-think/2020-2021/issues/25)
@@ -120,14 +120,14 @@ All the lecture notes and additional material of the laboratory are available at
    * material: [HTML](https://comp-think.github.io/2020-2021/laboratory/lessons/4_lesson/)
     <hr />
 13. [20/11/20, *the*] Divide and conquer algorithms
-    * book chapter: [PDF](https://comp-think.github.io/book/09.pdf), [Google Docs](https://comp-think.github.io/book/09)
+    * book chapter: [PDF](https://comp-think.github.io/book/09.pdf)
     * slides: [HTML](https://comp-think.github.io/2020-2021/slides/09%20-%20Divide%20and%20conquer%20algorithms.html)
     * Python: [immutable_values.py](https://comp-think.github.io/python/immutable_values.py), [mutable_values.py](https://comp-think.github.io/python/mutable_values.py), [immutable_and_mutable_variables.py](https://comp-think.github.io/python/immutable_and_mutable_variables.py), [merge.py](https://comp-think.github.io/python/merge.py), [merge_sort.py](https://comp-think.github.io/python/merge_sort.py)
     * exercises: [1](https://github.com/comp-think/2020-2021/issues/26), [2](https://github.com/comp-think/2020-2021/issues/27), [3](https://github.com/comp-think/2020-2021/issues/28)
     * solutions: [1](https://comp-think.github.io/keys/09/exercise-1), [2](https://comp-think.github.io/keys/09/exercise-2), [3](https://comp-think.github.io/keys/09/exercise-3)
     <hr />
 14. [23/11/20, *the*] Dynamic programming algorithms
-    * book chapter: [PDF](https://comp-think.github.io/book/10.pdf), [Google Docs](https://comp-think.github.io/book/10)
+    * book chapter: [PDF](https://comp-think.github.io/book/10.pdf)
     * slides: [HTML](https://comp-think.github.io/2020-2021/slides/10%20-%20Dynamic%20programming%20algorithms.html)
     * Python: [fib_dc.py](https://comp-think.github.io/python/fib_dc.py), [fib_dp.py](https://comp-think.github.io/python/fib_dp.py)
     * exercises: [1](https://github.com/comp-think/2020-2021/issues/29), [2](https://github.com/comp-think/2020-2021/issues/30)
@@ -137,7 +137,7 @@ All the lecture notes and additional material of the laboratory are available at
    * material: [HTML](https://comp-think.github.io/2020-2021/laboratory/lessons/5_lesson/)
     <hr />
 16. [27/11/20, *the*] Organising information: trees
-    * book chapter: [PDF](https://comp-think.github.io/book/11.pdf), [Google Docs](https://comp-think.github.io/book/11)
+    * book chapter: [PDF](https://comp-think.github.io/book/11.pdf)
     * slides: [HTML](https://comp-think.github.io/2020-2021/slides/11%20-%20Organising%20information%20-%20trees.html)
     * Python: [tree_instructions.py](https://comp-think.github.io/python/tree_instructions.py)
     * exercises: [1](https://github.com/comp-think/2020-2021/issues/31), [2](https://github.com/comp-think/2020-2021/issues/32)
@@ -147,7 +147,7 @@ All the lecture notes and additional material of the laboratory are available at
    * material: [HTML](https://comp-think.github.io/2020-2021/laboratory/lessons/6_lesson/)
     <hr />
 18. [02/12/20, *the*] Backtracking algorithms
-    * book chapter: [PDF](https://comp-think.github.io/book/12.pdf), [Google Docs](https://comp-think.github.io/book/12)
+    * book chapter: [PDF](https://comp-think.github.io/book/12.pdf)
     * slides: [HTML](https://comp-think.github.io/2020-2021/slides/12%20-%20Backtracking%20algorithms.html)
     * Python: [peg_solitaire.py](https://comp-think.github.io/python/peg_solitaire.py)
     * exercises: [1](https://github.com/comp-think/2020-2021/issues/34), [2](https://github.com/comp-think/2020-2021/issues/35)
@@ -157,7 +157,7 @@ All the lecture notes and additional material of the laboratory are available at
    * material: [HTML](https://comp-think.github.io/2020-2021/laboratory/lessons/7_lesson/)
     <hr />
 20. [09/12/20, *the*] Organising information: graphs
-    * book chapter: [PDF](https://comp-think.github.io/book/13.pdf), [Google Docs](https://comp-think.github.io/book/13)
+    * book chapter: [PDF](https://comp-think.github.io/book/13.pdf)
     * slides: [HTML](https://comp-think.github.io/2020-2021/slides/13%20-%20Organising%20information%20-%20graphs.html)
     * Python: [graph_instructions.py](https://comp-think.github.io/python/graph_instructions.py), [multigraph_instructions.py](https://comp-think.github.io/python/multigraph_instructions.py), [graph_attribute_instructions.py](https://comp-think.github.io/python/graph_attribute_instructions.py)
     * exercises: [1](https://github.com/comp-think/2020-2021/issues/36), [2](https://github.com/comp-think/2020-2021/issues/37)
@@ -171,7 +171,7 @@ All the lecture notes and additional material of the laboratory are available at
     * material: [GitHub](https://github.com/comp-think/2020-2021/tree/master/docs/project)
     <hr />
 23. [16/12/20, *the*] Greedy algorithms
-    * book chapter: [PDF](https://comp-think.github.io/book/14.pdf), [Google Docs](https://comp-think.github.io/book/14)
+    * book chapter: [PDF](https://comp-think.github.io/book/14.pdf)
     * slides: [HTML](https://comp-think.github.io/2020-2021/slides/15%20-%20Greedy%20algorithms.html)
     * Python: [line_wrap.py](https://comp-think.github.io/python/line_wrap.py)
     * exercises: [1](https://github.com/comp-think/2020-2021/issues/38), [2](https://github.com/comp-think/2020-2021/issues/39)
